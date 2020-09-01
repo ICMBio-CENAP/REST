@@ -1,7 +1,7 @@
 # Rest
-Testes com o modelo REST - Random Encounter and Staying Time de [Nakashima et al.  (2018)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.13059).
+Testes com o modelo REST - Random Encounter and Staying Time de [Nakashima et al.  (2018)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.13059)
 
-Códigos baseados nos templates disponibilizados no material suplementar do artigo.
+Códigos baseados nos templates disponibilizados no material suplementar do artigo. O plano é entender o código e aprender a rodar com nossos próprios dados.
 
 
 ### Descrição
