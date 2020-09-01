@@ -15,7 +15,7 @@ Códigos baseados nos templates disponibilizados no material suplementar do arti
 
 
 # Como começar 
-Para rodar, clone ou baixe o repositório completo, vá direto para a pasta ```src``` e execute *run-rest-template.R*. Não é necessário mudar o diretório de trabalho. Não esqueça de instalar os pacotes.
+Para rodar, clone ou baixe o repositório (*botão verde no alto da página*), vá direto para a pasta ```src``` e execute *run-rest-template.R*. Não é necessário mudar o diretório de trabalho. Não esqueça de instalar os pacotes.
 
 
 # Contato
