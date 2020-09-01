@@ -102,7 +102,7 @@ res <- jags(datalist, inits, parameters, model.file,
 res
 
 # Checar estimativa de rho (densidade)
-summary(res$BUGSoutput$sims.list$rho)
+summary(res$BUGSoutput$sims.list$rho) # valores nao batem com os do artigo, investigar
 
 
 
