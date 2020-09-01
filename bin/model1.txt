@@ -1,0 +1,21 @@
+model
+    {
+    for(i in 1:Nstay){
+    #stay[i] ~ dexp(lambda)T(cens[i],)   # use T(,) instead of I(,), https://sourceforge.net/p/mcmc-jags/discussion/610037/thread/4288692c/
+    stay[i] ~ dexp(lambda)
+    }
+    
+    for(i in 1:Ncam){
+    pcy[i] ~ dpois(mu.y[i])
+    y[i] ~ dpois(mu.y[i])
+    mu.y[i] <- mu[i]*u[i]
+    log(mu[i]) <- log(S)+log(eff[i])+log(rho)+log(lambda)
+    u[i] ~ dgamma(alpha,alpha)
+    }
+    
+    lambda ~ dgamma(0.1,0.1)
+    rho ~ dgamma(0.1,0.1)
+    alpha ~ dunif(0,100)
+    
+    }
+    
