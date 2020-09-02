@@ -8,14 +8,14 @@
 library(devtools)
 devtools::install_github("arcaravaggi/remBoot")
 
-
+# carregar o pacote
 library(remBoot)
 
-# carregar e preparar dados de exemplo
-
+# carregar os dados (exemplo do github)
 data(hDat)
-head(hDat) # dar uma espiada no formato dos dados
+head(hDat) # espiar formato dos dados
 
+# alguns ajustes
 grpDat <- split_dat(hDat) # aparentemente separa as cameras
 tm <- 3600  
 v <- 1.4  
