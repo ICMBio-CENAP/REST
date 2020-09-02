@@ -9,7 +9,7 @@ Códigos baseados nos templates disponibilizados no material suplementar dos art
 
 ```REST``` Contém os códigos para o REST.
 
-```data``` Contém os dados. 
+```data_REST``` e ```data_REM```Contém os dados. 
 
 ```bin``` Códigos e funções úteis que são chamadas pelos códigos principais.
 
@@ -17,7 +17,7 @@ Códigos baseados nos templates disponibilizados no material suplementar dos art
 
 
 # Como começar 
-Para rodar, clone ou baixe o repositório (*botão verde no alto da página*), vá direto para a pasta ```src``` e execute *run-rest-template.R*. Não é necessário mudar o diretório de trabalho. Não esqueça de instalar os pacotes.
+Para rodar, clone ou baixe o repositório (*botão verde no alto da página*), vá direto para os códigos nas pastas ```REST``` ou ```REM```. Não é necessário mudar o diretório de trabalho, o pacote here faz isso pra você. Não esqueça de instalar os pacotes do R e o JAGS.
 
 
 # Contato
