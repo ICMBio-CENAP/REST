@@ -13,7 +13,7 @@ library(here)
 
 
 ## ---- Ler dados ----
-data <- read.csv(here("data", "Nakashima_JAPPL_2017.csv"))
+data <- read.csv(here("data_REST", "Nakashima_JAPPL_2017.csv"))
 data <- subset(data, Species == "BlueDuiker")
 data <- subset(data, Transect == "SW") # testar somente com os dados dos swamps para comparar com tabela S7 
 #data <- subset(data, Transect == "OS")
