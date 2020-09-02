@@ -16,6 +16,11 @@ data(hDat)
 head(hDat) # espiar formato dos dados
 
 # alguns ajustes
+# y is the total number of photographic events
+# t camera-trap survey effort
+# v average speed of animal movement
+# and r and h the radius and angle of the camera-trap detection zone
+# (Gray, T. 2018. Monitoring tropical forest ungulates using camera-trap data. Journal of Zoology)
 grpDat <- split_dat(hDat) # aparentemente separa as cameras
 tm <- 3600  
 v <- 1.4  
