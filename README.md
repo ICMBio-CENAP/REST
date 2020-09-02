@@ -5,7 +5,9 @@ Códigos baseados nos templates disponibilizados no material suplementar do arti
 
 
 ### Descrição
-```src``` Contém os códigos para as análises.
+```REM``` Contém os códigos para o REM.
+
+```REST``` Contém os códigos para o REST.
 
 ```data``` Contém os dados. 
 
