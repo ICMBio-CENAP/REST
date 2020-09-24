@@ -43,7 +43,7 @@ silvania$Organization.Name <- "ICMBio/CENAP"
 silvania$Sampling.Event <- 2019
 silvania$Latitude <- NA
 silvania$Longitude <- NA
-silvania$Raw.Name <- NA
+silvania$Raw.Name <- sub('.*\\_', '', silvania$image_id)
 silvania$Photo.Type <- NA
 silvania$Person.picking.up.the.Camera <- "Mariella Butti"
 silvania$Person.setting.up.the.Camera <- "Mariella Butti"
